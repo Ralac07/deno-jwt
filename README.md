@@ -3,7 +3,7 @@
 A module for working with JSON Web Tokens (JWT).
 
 ```typescript
-import { createJwt, getJwtPayload, isJwtExpired, isJwtValid } from "@popov/jst";
+import { createJwt, getJwtPayload, isJwtExpired, isJwtValid } from "@popov/jwt";
 
 const nowSec = Math.floor(Date.now() / 1000);
 const oneHour = 60 * 60;
